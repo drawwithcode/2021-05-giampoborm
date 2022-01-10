@@ -61,11 +61,11 @@ function setup() {
   let container =  createDiv().style("position: absolute").position(width-100, height-100);
   myButton1 = createElement("button", "previous").parent(container);
   myButton1.mouseClicked(function () {
-    window.open("http://localhost:3000/fourth-page.html", "_self");
+    window.open("https://collab-meme-generator.herokuapp.com/fourth-page.html", "_self");
   });
   myButton = createElement("button", "next meme").parent(container);
   myButton.mouseClicked(function () {
-    window.open("http://localhost:3000", "_self");
+    window.open("https://collab-meme-generator.herokuapp.com", "_self");
   });
   
   imageMode(CENTER)
