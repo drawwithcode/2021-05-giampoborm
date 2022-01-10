@@ -64,7 +64,7 @@ function setup() {
   });
   myButton = createElement("button", "next meme").parent(container);
   myButton.mouseClicked(function () {
-    window.open("https://collab-meme-generator.herokuapp.com/fourth.html", "_self");
+    window.open("https://collab-meme-generator.herokuapp.com/fourth-page.html", "_self");
   });
   
   imageMode(CENTER)
